@@ -1,0 +1,9 @@
+﻿  main.cpp
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(24): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(69): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(45): warning C4101: 'r7' : unreferenced local variable
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(45): warning C4101: 'r6' : unreferenced local variable
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(45): warning C4101: 'r8' : unreferenced local variable
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab02 - sse\main.cpp(45): warning C4101: 'r5' : unreferenced local variable
+  Lab02 - SSE.vcxproj -> D:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Debug\Lab02 - SSE.exe

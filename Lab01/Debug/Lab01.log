@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab01\main.cpp(22): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\work\vs\sem8\avmis\highperformanceprocessorarchitecture\lab01\main.cpp(41): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+  Lab01.vcxproj -> D:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Debug\Lab01 - Vectorization.exe

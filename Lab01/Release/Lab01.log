@@ -1,0 +1,14 @@
+﻿icl : warning #10193: /Qvec is default; use /Qx and /Qax to configure vectorization
+  main.cpp
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(18,2): warning : LOOP WAS VECTORIZED.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(24,2): warning : loop was not vectorized: not inner loop.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(24,2): warning : loop was not vectorized: statement cannot be vectorized.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(25,2): warning : loop was not vectorized: not inner loop.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(25,2): warning : loop was not vectorized: statement cannot be vectorized.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(29,2): warning : loop was not vectorized: not inner loop.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(30,7): warning : loop was not vectorized: not inner loop.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(31,3): warning : LOOP WAS VECTORIZED.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(50,2): warning : loop was not vectorized: not inner loop.
+d:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Lab01\main.cpp(52,13): warning : loop was not vectorized: statement cannot be vectorized.
+  xilink: executing 'link'
+  Lab01.vcxproj -> D:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Release\Lab01 - Vectorization.exe
