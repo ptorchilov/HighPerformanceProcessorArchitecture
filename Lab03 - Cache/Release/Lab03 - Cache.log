@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.cpp(52): warning C4244: 'initializing' : conversion from 'double' to 'unsigned __int64', possible loss of data
+main.cpp(52): warning C4244: 'initializing' : conversion from 'double' to 'unsigned __int64', possible loss of data
+main.cpp(67): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+          main.cpp(59) : definition of 'i' ignored
+          main.cpp(51) : definition of 'i' used
+main.cpp(67): warning C4244: '=' : conversion from 'unsigned __int64' to 'double', possible loss of data
+  Generating code
+  Finished generating code
+  Lab03 - Cache.vcxproj -> D:\work\VS\sem8\avmis\HighPerformanceProcessorArchitecture\Release\Lab03 - Cache.exe
