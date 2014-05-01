@@ -22,44 +22,33 @@ bool isEqual(int cpu, int gpu)
 void cpu_compare(int *a, int *b, int *c)
 {
     int tidx = 0;
-    int tidy = 0;
-
+    
     while (tidx < N * N) {
-        //while (tidy < N) {
-            if (a[tidx/* * N + tidy*/] + b[tidx /** N + tidy*/] > 50) {
-                *c ^= (1u << tidx % 32);
-            } 
-         //   tidy++;
-       // }
+        if (a[tidx] + b[tidx] > 50) {
+            *c ^= (1u << tidx % 32);
+        } 
         tidx++;
-      //  tidy = 0;
     }
 }
 
 __global__ void kernel(int *a, int *b, int *c) 
 {
     int tidx = blockIdx.x * blockDim.x + threadIdx.x;
-    //int tidy = blockIdx.y * blockDim.y + threadIdx.y;
     int offset = blockDim.x * gridDim.x;
-    __shared__ int temp[512];
+
+    __shared__ int temp[threads_number];
+
     temp[threadIdx.x] = 0;
     __syncthreads();
-    
 
-    
-    while (tidx < N * N/* && tidy < N*/) {
-        if ((a[tidx/* * N + tidy*/] + b[tidx/* * N + tidy*/]) > 50) {
-            //atomicXor(c, 1u << tidx % 32);
+    while (tidx < N * N) {
+        if ((a[tidx] + b[tidx]) > 50) {
             atomicXor(&(temp[threadIdx.x]), 1u << tidx % 32);
-            //temp++;
-            //__syncthreads();
-            //atomicXor(c, temp[threadIdx.x]);
         }
         tidx += offset;
     }
-    
-    
-    // __syncthreads();       
+
+    __syncthreads();       
     if (temp[threadIdx.x] != 0) {
         atomicXor(c, temp[threadIdx.x]);
     }
@@ -113,7 +102,6 @@ int main()
 
     end_cpu = clock();
 
-    
     cudaError_t cudaStatus;
     cudaEvent_t start, stop;
     float elapsedtime;
