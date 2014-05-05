@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab03 - Cache", "Lab03 - Ca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab04 - Cuda", "Lab04 - Cuda\Lab04 - Cuda.vcxproj", "{4933504C-84D4-4CB7-B54A-69E66874E631}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab06 - Filter", "Lab06 - Filter\Lab06 - Filter.vcxproj", "{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -71,6 +73,20 @@ Global
 		{4933504C-84D4-4CB7-B54A-69E66874E631}.Release|x64.ActiveCfg = Release|x64
 		{4933504C-84D4-4CB7-B54A-69E66874E631}.Release|x64.Build.0 = Release|x64
 		{4933504C-84D4-4CB7-B54A-69E66874E631}.Release|x86.ActiveCfg = Release|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|Win32.Build.0 = Debug|Win32
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|x64.ActiveCfg = Debug|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|x64.Build.0 = Debug|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Debug|x86.ActiveCfg = Debug|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|Mixed Platforms.Build.0 = Release|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|Win32.ActiveCfg = Release|Win32
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|Win32.Build.0 = Release|Win32
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|x64.ActiveCfg = Release|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|x64.Build.0 = Release|x64
+		{7E1B2D53-67F3-48D2-B9E3-DD7272344C0D}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
